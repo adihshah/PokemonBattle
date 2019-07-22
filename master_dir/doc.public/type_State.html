@@ -1,0 +1,70 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Battle" rel="Chapter" href="Battle.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Authors" rel="Chapter" href="Authors.html"><title>State</title>
+</head>
+<body>
+<code class="code"><span class="keyword">sig</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;state_m&nbsp;=&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;pp&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;attack&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;move_type&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;mov&nbsp;:&nbsp;<span class="constructor">Battle</span>.move;<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;state_p&nbsp;=&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;hp&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;atk&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;def&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;spatk&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;spdef&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;moves&nbsp;:&nbsp;<span class="constructor">State</span>.state_m&nbsp;list;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;front&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;back&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;desc&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;pok&nbsp;:&nbsp;<span class="constructor">Battle</span>.pokemon;<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;state_i&nbsp;=&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;uses&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;value&nbsp;:&nbsp;float;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;itemtype&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;t&nbsp;=&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;battle&nbsp;:&nbsp;<span class="constructor">Battle</span>.t;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;p1_party&nbsp;:&nbsp;<span class="constructor">State</span>.state_p&nbsp;list;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;p2_party&nbsp;:&nbsp;<span class="constructor">State</span>.state_p&nbsp;list;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;turn&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;last_move_used&nbsp;:&nbsp;<span class="constructor">State</span>.state_m&nbsp;option;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;p1_items&nbsp;:&nbsp;<span class="constructor">State</span>.state_i&nbsp;list;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;p2_items&nbsp;:&nbsp;<span class="constructor">State</span>.state_i&nbsp;list;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;p1_active_id&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;p2_active_id&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">mutable</span>&nbsp;missed&nbsp;:&nbsp;bool;<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;result&nbsp;=&nbsp;<span class="constructor">Legal</span>&nbsp;<span class="keyword">of</span>&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Illegal</span>&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Out</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;m&nbsp;=&nbsp;<span class="constructor">Megal</span>&nbsp;<span class="keyword">of</span>&nbsp;<span class="constructor">State</span>.state_m&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Immegal</span><br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;init_state&nbsp;:&nbsp;<span class="constructor">Battle</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;effectiveness&nbsp;:&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_move&nbsp;:&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.m<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;attack&nbsp;:&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.result<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_last_move_used&nbsp;:&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_turn&nbsp;:&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_hp&nbsp;:&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;use&nbsp;:&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.result<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;swap&nbsp;:&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.result<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_statep_from_name&nbsp;:&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.state_p&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.state_p<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;calculate_dmg&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">State</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.state_m&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.state_p&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">State</span>.state_p&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+<span class="keyword">end</span></code></body></html>

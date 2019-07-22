@@ -1,0 +1,501 @@
+{
+  "list_of_pokemon": [
+    {
+      "name": "SQUIRTLE",
+      "desc": "Water",
+      "hp": 44,
+      "atk": 48,
+      "def": 65,
+      "spatk": 50,
+      "spdef": 64,
+      "moves": [
+        {
+          "name": "Tackle",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        },
+        {
+          "name": "Water Gun",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Water",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 25
+        },
+        {
+          "name": "Hydro Pump",
+          "attack": 110,
+          "accuracy": 80,
+          "type": "Water",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 5
+        },
+        {
+          "name": "Tail Whip",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "def",
+          "pp": 40
+        }
+      ],
+      "front": "\t\t\t\t\t\t        o\/oyyyyyyoo\/                    \r\n\t\t\t\t\t\t      oy\/\/\/\/\/\/\/\/\/\/\/\/y\/                  \r\n\t\t\t\t\t\t     .\/o\/\/\/\/\/\/\/oyo\/\/\/m\/                 \r\n\t\t\t\t\t\t     m\/M\/\/\/\/\/\/m MMm\/oyM                 \r\n\t\t\t\t\t\t    \/omm\/\/\/\/\/\/mmm\/MoyyMo\/               \r\n\t\t\t\t\t\t o\/ymyo\/o\/o\/\/\/\/oyymyyMM\/\/mo\/            \r\n\t\t\t\t\t\t \/y\/\/yymyoyooyyoomo\/\/om\/ oyym           \r\n\t\t\t\t\t\t  \/o\/\/oyMooyyyymM\/\/yy\/\/m. oyy\/          \r\n\t\t\t\t\t\t   oy\/\/M .\/\/\/\/\/\/\/yyo\/\/\/\/m .mmm          \r\n\t\t\t\t\t\t     om\/\/ooooyyyyo\/Myooyo myyym         \r\n\t\t\t\t\t\t      Mo   M       ooyMo oyyyyM         \r\n\t\t\t\t\t\t      \/\/oo \/\/    oo  \/m  mymmmm  \/oo\/   \r\n\t\t\t\t\t\t       mo \/ymyyoo\/\/oyyomy\/ymym oy\/\/\/\/yo \r\n\t\t\t\t\t\t      m\/\/myo\/m\/\/\/.\/y\/\/oymm\/\/y\/y\/\/\/\/\/\/\/yo\r\n\t\t\t\t\t\t      m\/\/\/oymMmyymM\/\/\/\/\/yMmmyyo\/ooyo\/\/m\/\r\n\t\t\t\t\t\t      oo\/\/\/oymo   M\/\/\/\/\/yyM\/ymmmmyooom\/ \r\n\t\t\t\t\t\t       \/oooo\/     \/yo\/\/oymo      \/oo\/  ",
+      "back": "                       .-:yyyyy\/-`                \r\n                     .-.: .+ooosyy\/`              \r\n                   `\/.  `:\/ooooooosy\/`            \r\n                  .s+-`:-:oooooooohsho            \r\n                 .yy+:o:ooooooooood++y:           \r\n                 :mooooooooooooooodMhhs           \r\n                 :moooooooooooooooyNhhs           \r\n                  :Nhhhhhoooooooysoooohs          \r\n               .+o+``````sshhooooyddmd\/`          \r\n              \/hsyyhmsyoy\/\/.`oyhsoymh++oo:        \r\n            .os\/:.+o:---+ooy\/`.dNddysso+oys       \r\n          .oo\/\/\/oyh:---\/++ssd\/`.dyooooooyy.       \r\n         .s++o-.`-:ohosshhss+d\/`oysoosyyo.        \r\n         yo+o.  .:-\/oNss++++++m: yhyy+:.          \r\n        +s:::.:\/+++ods++++++++m: ys.              \r\n    `..`yssdho++oshhy++++++++od-`y\/               \r\n `oo++ysmy\/\/shhyys+oyh++++++om-`hh:               \r\n`N` -+ooody++hs.++++ohh++++ho`+ysod+              \r\nMoooohsoooyhhmd+++++++oM++M` +hsoood+             \r\n"
+    },
+    {
+      "name": "CHARMANDER",
+      "desc": "Fire",
+      "hp": 39,
+      "atk": 52,
+      "def": 43,
+      "spatk": 60,
+      "spdef": 50,
+      "moves": [
+        {
+          "name": "Scratch",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        },
+        {
+          "name": "Ember",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Fire",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 20
+        },
+        {
+          "name": "Fire Blast",
+          "attack": 110,
+          "accuracy": 85,
+          "type": "Fire",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 5
+        },
+        {
+          "name": "Growl",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "atk",
+          "pp": 40
+        }
+      ],
+      "front": "\t\t\t\t\t\t       \/\/oyyyyo\/o                       \r\n\t\t\t\t\t\t      mo:::oooo::yo                     \r\n\t\t\t\t\t\t    \/myyyo::mM\/ :::m             .o.    \r\n\t\t\t\t\t\t  \/yo::o::::omMh:::o\/           :hhh    \r\n\t\t\t\t\t\t  moh\/MMMMM\/yo::::::M           :hhho   \r\n\t\t\t\t\t\t   \/mMMmmMmmmMmo::::o\/        .:::hhh.  \r\n\t\t\t\t\t\t  \/ohMo::y:::hhm:::::M  o\/oym ::::hhoh. \r\n\t\t\t\t\t\t m:ymMo.:::.mmy:yh:::myooohmm .:::o::hh \r\n\t\t\t\t\t\t  \/o:ohhyyhyooymh\/::::::::om   :::::::h \r\n\t\t\t\t\t\t   oy:ohhmyo\/.     ::::ohmo     .yoooo. \r\n\t\t\t\t\t\t     ohmho          ::hmM    \/o\/y::m    \r\n\t\t\t\t\t\t       \/M           .:::om\/mho::::m     \r\n\t\t\t\t\t\t        m            :::::Mhhh:::m      \r\n\t\t\t\t\t\t      \/oy\/          .::ooomhh::yo       \r\n\t\t\t\t\t\t     m:::m\/         ::::::omyo\/         \r\n\t\t\t\t\t\t    m::::hm\/       o:::::::oM           \r\n\t\t\t\t\t\t    \/y:ohhhmmo....om::ooohhhm           \r\n\t\t\t\t\t\t  o\/ooyhhhhM  \/oo\/\/Mh::ohhhM            \r\n\t\t\t\t\t\t o\/yMymmmmho       m:o\/yhymo\/           \r\n\t\t\t\t\t\t                    \/o\/omohoo           \r\n\t\t\t\t\t\t",
+      "back": "               ``                 `.----`         \r\n               -\/-             .o+\/:-::\/ooo.      \r\n        ` `-..:--`           `oy\/`   `.\/++oyo`    \r\n       .-:+o\/\/+\/`           `ho++\/::\/+++++++sh`   \r\n      \/:-+soo+:.            ho+++++++++++++sd:m   \r\n     \/++oso++-              mo+++++++++++++odsh   \r\n    \/+++osso-              :o++++++++++++++sMNh+  \r\n   \/:\/+++oss\/.             No+++++++++++++++ohoh: \r\n   ---\/++ooos\/`            No+++++++++++++++++++d \r\n  \/---\/++sooss+.          \/s++++++++++++++osdmNhs \r\n  ++\/+++ossooso:         \/y+++++++++++oosyhdhys.  \r\n  `\/+++osyyoos\/`        hs+++++++++++oyhhyo-.     \r\n   `:+oyyys+\/-`       :y\/-++++++++++\/\/smy         \r\n     `hhyd+`       `:so---++++++++++-`.\/so.       \r\n     +so+d+       `:h---:++++++++++oo++++oso.     \r\n    `ds++h+`     `\/d----+++++++++++ossoo++oyh\/    \r\n    h:\/+++h+     \/h---:+++++++++++:.`+dhyyyyy++   \r\n    d-:+++ss:`  \/d:+:++++++++++++:`  ++ .oyh+y    \r\n    :o..\/+++shyoyNhhy+++++++++++:`  -\/.    .\/     "
+    },
+    {
+      "name": "BULBASAUR",
+      "desc": "Grass",
+      "hp": 45,
+      "atk": 49,
+      "def": 49,
+      "spatk": 65,
+      "spdef": 65,
+      "moves": [
+        {
+          "name": "Tackle",
+          "attack": 30,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 25
+        },
+        {
+          "name": "Vine Whip",
+          "attack": 45,
+          "accuracy": 100,
+          "type": "Grass",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 25
+        },
+        {
+          "name": "Growl",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "atk",
+          "pp": 40
+        }
+      ],
+      "front": "\t\t\t\t\t\t                     oo                 \r\n\t\t\t\t\t\t                   MoM.Mo               \r\n\t\t\t\t\t\t                 ooo ::M:yyyoo          \r\n\t\t\t\t\t\t              o.y:....::yyyy::yyo       \r\n\t\t\t\t\t\t            .o : .....::::::yyy.:yo     \r\n\t\t\t\t\t\t       ooo  M.oyyo:.yyooyy:::::M..oo    \r\n\t\t\t\t\t\t      M .yMyyyyy::yy  .::M:::::.M..M    \r\n\t\t\t\t\t\t     oy::::::MMy:::::::::yy::::.M.:M    \r\n\t\t\t\t\t\t     oyy::yy:::yy:yooy::::M::::M::M     \r\n\t\t\t\t\t\t     M hy:yy:::yyMho  M::::My:Myyo      \r\n\t\t\t\t\t\t    M:ohy:::::::MohM..y::::M::yy:yo     \r\n\t\t\t\t\t\t    oyy:y:::y::yyyy.yhMM::y::::yy:yo    \r\n\t\t\t\t\t\t      MMyoMMMMhoooohohy::yMy:yy::M:M    \r\n\t\t\t\t\t\t     oy:yyyyyhhhhhhyy:yyy:yMM:Myy:::M   \r\n\t\t\t\t\t\t     M:::::yyMyyyyyooMyy::::::My::Myo   \r\n\t\t\t\t\t\t    M.y.::yoo         M.y.::yo  oo      \r\n\t\t\t\t\t\t     ooooo             ooooo             ",
+      "back": "            `..`     `-s..              `.`       \r\n        ```\/ooss+`` -s`\/ssss.```````.\/o\/-+so      \r\n       +o+so\/os\/smsymsyy\/\/\/yNysssyyy: `--:+s+     \r\n       \/o+oyyydMd::::::\/yyyyy\/\/::dMdo::::::od     \r\n        ysoys:`\/ys:::::::::::syyy+oyo:::::::+m    \r\n       hs::o+-:::+yys::::::::::\/\/sy+::::::\/yd:m   \r\n     \/s+\/::o+:::::\/\/+yysss\/:::::::sy+::::::.+hy\/  \r\n    :s\/::::so:::::::::\/\/\/\/yys\/:::::sy+:::::\/+y\/h\/ \r\n   :y. `.-yo--.`--::::::::::+d+:::::hy:::::\/+sssy \r\n  :h-....-\/.  `..-:::::::::::+d+::::hy:::::+s\/yy  \r\n  N+::.--y+...--::::::::::::::+ho::+ys::::::\/oy   \r\n  N+::::yy\/::::::::::::::::::::mo:+dy:sdh+:+h-    \r\n  do\/:::ho::::::::::::::::::::+do\/dh+:sNMd:\/ss    \r\n   do\/:::so::::::::::::::::::\/doymh+\/++oso::+d.   \r\n    \/s+\/\/oyo\/::::::::::::::\/\/Ndmh+::+ssyys\/::+m   \r\n      \/+shhyyhs\/\/\/:::\/\/\/hyhNhNh\/:\/shho:::+ys:+m   \r\n         ysoyydMMNyyhNyMyyyyy\/:::oyy+:::::om\/y+   \r\n"
+    },
+    {
+      "name": "PIKACHU",
+      "desc": "Electric",
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "spatk": 50,
+      "spdef": 50,
+      "moves": [
+        {
+          "name": "Quick Attack",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 30
+        },
+        {
+          "name": "Thunder Shock",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Electric",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 30
+        },
+        {
+          "name": "Growl",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "atk",
+          "pp": 40
+        },
+        {
+          "name": "Tail Whip",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "def",
+          "pp": 40
+        }
+      ],
+      "front": "\t\t\t\t\t\t                          :o:           \r\n\t\t\t\t\t\t   :                  :o:oMMd           \r\n\t\t\t\t\t\t  dMMo             ooo ..-Md            \r\n\t\t\t\t\t\t  dMy-yo  ooo:oyyMy  .---yo       oo    \r\n\t\t\t\t\t\t   M---+:o   .----------y:      oo  M   \r\n\t\t\t\t\t\t    M++-...-----yy----+M       d ...-M  \r\n\t\t\t\t\t\t     Mod-------MoMM----yo    o+.....--M \r\n\t\t\t\t\t\t    :yMy-y------yy-++---y:  d-------yo  \r\n\t\t\t\t\t\t    M+--yMyyyy----yyyy---y: oy----yo    \r\n\t\t\t\t\t\t    ody------------++-----yo  M--yo     \r\n\t\t\t\t\t\t     oy----------+yy+------yo oy--yo    \r\n\t\t\t\t\t\t     :y-yyy----yo .-------+yMy---yyo    \r\n\t\t\t\t\t\t     M---. M----yoy+yy---+++yy-Mo       \r\n\t\t\t\t\t\t      oyyyy----------------++MyyM       \r\n\t\t\t\t\t\t      M------------+.----++yyMdo        \r\n\t\t\t\t\t\t      :y--+-------d .-------M           \r\n\t\t\t\t\t\t        oy++++++--yy-------M            \r\n\t\t\t\t\t\t        oyyyooo ooooM++.-do             \r\n\t\t\t\t\t\t                     oooo               \r\n\t\t\t\t\t\t",
+      "back": "                                           .o+    \r\n                                         .smMm    \r\n                                       .sddmMm    \r\n                                      .ohdmMMh    \r\n       sdddyo::.                     +o`.sMMd`    \r\n       .hmmmNMMds+:::.              +o.`-:sMh     \r\n        .sdNMMNy-..::-oo--         +o.`---+d.     \r\n           .sddo-----..`\/:o--     ++.`---+y-      \r\n              .+so\/---:--..+y\/ossy+.`---:os       \r\n       `````     .+yy+\/-`      `-+-.---:ss        \r\n```:ooo\/\/+ho      -so...      .--------sy`        \r\nmo+` `..---yo    :d...... ..------------oy        \r\noo`--------+s:  \/h.......--------------sdyh       \r\n N`.--------ys \/h-.....----------------+dmhh      \r\n `m.--------+s+oo--------------------:oss\/:+s     \r\n  s+`--------sMh---------------------+yyyo-+d     \r\n   m..-------sh:\/o++yd---------------:\/o+:+h.     \r\n   .h.-------shoo:--\/Nsssssss\/\/\/:-------\/o+.      \r\n    y\/-------:::+\/--\/Nyyyyyyyyyyso:-----:oo-.  .  \r\n     y\/------:oydd-\/dyssssss\/\/\/\/\/:--------:+\/ss\/s-\r\n      h+-:\/shs\/+y::+N\/\/------------------------:yo\r\n      :os+\/hs:+yy-\/yddNoooooo\/::---------+y\/\/\/\/ss\/\r\n           odyddohmmhhNyyyyyyyyo+:-------om+++\/   \r\n            ohoydhhNhNssssss+++:--------:oy       \r\n            -so--+Nyyh------------------oy        \r\n"
+    },
+    {
+      "name": "MANKEY",
+      "desc": "Fighting",
+      "hp": 40,
+      "atk": 80,
+      "def": 35,
+      "spatk": 35,
+      "spdef": 45,
+      "moves": [
+        {
+          "name": "Scratch",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 25
+        },
+        {
+          "name": "Karate Chop",
+          "attack": 50,
+          "accuracy": 100,
+          "type": "Fighting",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 20
+        },
+        {
+          "name": "Leer",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "def",
+          "pp": 30
+        }
+      ],
+      "front": "\t\t\t\t\t\t  `.+ooo:                               \r\n\t\t\t\t\t\t`+yhyyyhhy:                   `\/so\/:    \r\n\t\t\t\t\t\t.ddhmhmhyh\/                  `hyyyyys.  \r\n\t\t\t\t\t\t `:yhyyy+`                   hmyyyydh+  \r\n\t\t\t\t\t\t .\/-`+:.`      `. :`     \/-  \/mydhymy-  \r\n\t\t\t\t\t\t`o. \/+:s\/:\/-.-\/:-+.--.:\/\/\/s   \/dhd+     \r\n\t\t\t\t\t\t `+:`:\/yh+ `-`      `--+hms.:\/::+d+os\/` \r\n\t\t\t\t\t\t  .+\/ ``:`             :y+\/.` .\/\/hhhyyh.\r\n\t\t\t\t\t\t   -\/+\/.  \/:.   `` .:+.-``-\/\/\/:   :.dyd.\r\n\t\t\t\t\t\t     -h-  y:h+``+++ds.. -sho`     :+yy: \r\n\t\t\t\t\t\t     -+`  -+yysssyy+\/:`  -\/o:..\/\/\/-.\/-  \r\n\t\t\t\t\t\t     o:-   `:yssds\/     .-\/\/so+o\/:-.    \r\n\t\t\t\t\t\t     `+\/` `   `-`   `-:.  -ys+:`        \r\n\t\t\t\t\t\t     s:.`\/+\/-.-\/\/-:\/++++\/`` -\/-         \r\n\t\t\t\t\t\t     -oyysys::+\/-\/-.` `..\/++\/.-\/.       \r\n\t\t\t\t\t\t -+ooohysys:                :y:++       \r\n\t\t\t\t\t\t+hoodhyy.                 -:ohyyh+:-`:` \r\n\t\t\t\t\t\t `-shyy.                 +yhyyyyyhhyyyh.\r\n\t\t\t\t\t\t   .:.                       ::yhsso+s\/ \r\n\t\t\t\t\t\t                               `:+o\/    \r\n\t\t\t\t\t\t",
+      "back": "           -\/oyhyy\/:                     .\/+hyh\/  \r\n        -shyso+ooshsy:                 .+sos+oddh:\r\n     -shhyysssyhhdmyyhh                +moosssymhM\r\n   -osssyyyydddNmNhhyy-  .             `odyyyyymh-\r\n  o:` -\/oydmdo:+:::- .:-o-h`       `.\/\/..odyyyyhy \r\n +\/` .:\/soy\/ :os+.. -y`sh-os-. ..:+\/::\/s+:dyso++m.\r\nyo`  .:d\/o\/ .:::+hmss`:::+::oso+\/. .:::sy :d-..:\/M\r\nM-....:osdo:::\/+\/:-....:::::::-..:::::\/ss :h...:\/M\r\n+y\/:::::osyo::.    `....::::::::::::::ys :y..-::\/M\r\n oy\/::::::\/:`  ```.....::::::::::::::os::y:::::\/yo\r\n  oy\/:::+\/-............::::::::::::::osso:::\/ys\/N \r\n   os\/:+s+-.......-:.::::::::::::::+syo\/:+yhhoyd+ \r\n    ossy+::------:::::::::::::::::::::::sdo++oyym\/\r\n     .do:::::::::::::::::::::::::::::::sdsosohNdyM\r\n    -so\/:::::::::::::::::::::::::::\/++ydyyyydmyyN-\r\n    -od+:::::::::::::::::::::::\/++++++hmyyydmyhy- \r\n     +yo\/::::::::::::-:::::::\/:++++++ydyyyhNhy-   \r\n    `.+do\/::::::::::...:y+s\/++++oooyys+\/+yh-      \r\n `:o:\/\/\/\/+\/:::::::::...-.ssdydohddys+::\/oo:       \r\n d` .-::::::\/++\/:::::-:\/\/\/\/:::::::\/\/\/oyyss+`      \r\n +y\/\/:sy+\/oyyyyo\/+\/+\/yhdyddyyyhhhyyhh+:::\/\/s+     \r\n  +ydyyyhdy-  -ssoohd+oydoo`  \/ohho++\/oyyo+y\/     \r\n"
+    },
+    {
+      "name": "ABRA",
+      "desc": "Psychic",
+      "hp": 25,
+      "atk": 20,
+      "def": 15,
+      "spatk": 105,
+      "spdef": 55,
+      "moves": [
+        {
+          "name": "Headbutt",
+          "attack": 70,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 15
+        },
+        {
+          "name": "Confusion",
+          "attack": 50,
+          "accuracy": 100,
+          "type": "Psychic",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 25
+        }
+      ],
+      "front": "\t\t\t\t\t\t   ++oy      -++               -++-     \r\n\t\t\t\t\t\t +y-`y       -o`++-        -+-+ ``N     \r\n\t\t\t\t\t\t-y. N         --`` :ooooo::`` ```N      \r\n\t\t\t\t\t\tN\/:`N          N.`.`    `...`.`.y\/y     \r\n\t\t\t\t\t\tN\/:-o-       +yN..        ......NyN     \r\n\t\t\t\t\t\t-y:.`o+     y:.\/ .`      `....`y..y-    \r\n\t\t\t\t\t\t y\/..`\/+:+++Ny..y+`.````..`:o-:..:\/N+   \r\n\t\t\t\t\t\t  y\/::..`-o`.oyo\/oy ...`-yNy:.::yyy-`ooy\r\n\t\t\t\t\t\t   +y\/::\/yy:`:\/NNy:\/`.:::::oyyNNy:.``:y-\r\n\t\t\t\t\t\t     +\/y\/\/\/NyyyyNNNy`.y:yNNNNNy\/\/\/:yy\/- \r\n\t\t\t\t\t\t        -+N` `:oyNNNyyyNNNNNNyyyyyNNN   \r\n\t\t\t\t\t\t         y.oo\/ooo+oo` -+oyNNo+yo.:yN`+- \r\n\t\t\t\t\t\t N++ N++ y\/:...``--`+o`  ``-:N .NN N:.y-\r\n\t\t\t\t\t\t -- NN  y +yyyy:`+`+ooy:oyyNN.  N`  y::N\r\n\t\t\t\t\t\t  N.`N.`N++N +NNyyNoooooy\/yNy\/:.o.`-N\/\/N\r\n\t\t\t\t\t\t  N.....N ``N.:N.......\/\/\/NN\/\/\/\/:.:yyyy-\r\n\t\t\t\t\t\t  y:.::\/\/..yy\/\/NNo:::\/\/\/yNNNN\/\/:\/\/\/Nyy+ \r\n\t\t\t\t\t\t   N..\/\/N\/yNyyy+++++++yNNNNNN:...\/y--   \r\n\t\t\t\t\t\t  +o.:\/NNy+-             -+N\/  -y+      \r\n\t\t\t\t\t\t +++\/+-                     +y-+        \r\n\t\t\t\t\t\t",
+      "back": "            .:++:.                  .:-           \r\n            oo `\/oys:           .:\/+\/\/yo          \r\n           :\/..\/\/\/\/+shy:::--  -+:-``-\/+yo         \r\n           o+.:\/\/\/\/++..--+++sys- `-\/\/\/\/yy         \r\n           sh\/\/\/\/:`      `\/\/\/\/\/\/:\/\/\/\/\/\/yy         \r\n          `sho\/\/:-.` ``::\/\/\/\/\/\/\/\/\/\/\/\/\/ss-         \r\n         `os\/\/\/\/:-----\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ys`         \r\n         ss\/\/\/\/\/\/\/:\/-\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/yy         \r\n         os\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/yy         \r\n          sy\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/oy:         \r\n      \/+yddddo\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/syyys:          \r\n   \/ydyssoooydmdhmNNNNNNdyyyo+sydmyssshds:        \r\n  mhsoooyssyhhdMMMMMMMMMMMMMMmhhhhsooooosshy:     \r\n dhhyhyyhhhhhhmMMMMMMMMMMMMMMhhhhhhyyyssssyhhh:   \r\n -yyddhhhhhhhmMMMmmNNNNMMMMMMNhhhhhhhhhhhhhhddy   \r\n    --ddhddddmdyyoosyhhddddNNNNdhhhhhhhhdmmhy-    \r\n     +o.\/syhNmyooossyhhhhhhhhhddmdddddddNd-       \r\n    +s.-\/+d+ohssoooshhhhhhyyyyyomshh+\/\/sy-        \r\n   +sh+++dhshmo.`::\/ooooos+\/\/\/\/+h:sy+++ys      `  \r\n   m:+hdds++hMm+----+oyooyyhhohNh+::+ydd\/`   `+:s \r\n   \/o.:\/\/\/yo-\/dd\/-:o:----\/\/\/yNMMMo`.:\/\/\/oy+ .o\/`ys\r\n    :y::\/dy::\/odmsho  --.-.\/\/\/\/syysyho\/\/\/smss--+ho\r\n"
+    },
+    {
+      "name": "GASTLY",
+      "desc": "Ghost",
+      "hp": 30,
+      "atk": 35,
+      "def": 30,
+      "spatk": 100,
+      "spdef": 35,
+      "moves": [
+        {
+          "name": "Sludge Bomb",
+          "attack": 90,
+          "accuracy": 100,
+          "type": "Poison",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 10
+        },
+        {
+          "name": "Lick",
+          "attack": 30,
+          "accuracy": 100,
+          "type": "Ghost",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 30
+        }
+      ],
+      "front": "\t\t\t\t\t\t                                  ...   \r\n\t\t\t\t\t\t                             .  \/\/\/\/\/\/. \r\n\t\t\t\t\t\t          .\/\/\/...   .   ...\/\/   .\/\/\/\/\/\/ \r\n\t\t\t\t\t\t       ... \/\/..  ..\/\/.\/\/\/\/\/\/    .\/\/\/\/\/. \r\n\t\t\t\t\t\t    .\/\/\/.    ...\/\/\/\/\/\/\/o\/\/\/\/\/.\/\/\/\/\/..   \r\n\t\t\t\t\t\t    \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/oyy\/\/\/\/\/ooo\/\/.      \r\n\t\t\t\t\t\t     .\/\/\/\/\/\/\/\/\/\/ooyyyyyyooyyyo\/\/.    .  \r\n\t\t\t\t\t\t     .\/\/\/\/\/oyddddddyyyyyyyyyy\/\/.  ..\/   \r\n\t\t\t\t\t\t    \/\/\/oydNNNNNNNNNNNdyydyyy\/\/\/.\/\/\/\/\/   \r\n\t\t\t\t\t\t   \/\/\/yNNNNNNNNNNNNNNNNdyyyy\/\/\/\/\/\/\/\/.   \r\n\t\t\t\t\t\t  \/yydNNNNNNNNNNNNNNd\/.\/Nyy\/\/\/\/.        \r\n\t\t\t\t\t\t  \/o \/dNNNNNNNNNNNd\/   \/yNy\/\/\/...       \r\n\t\t\t\t\t\t .\/y   \/dNNNNNNNd\/     \/yNyooo\/\/        \r\n\t\t\t\t\t\t \/\/y   + odNNNd\/  +   \/\/dNyy\/\/\/  . .    \r\n\t\t\t\t\t\t .\/\/y.  .\/yNNNy    ..\/\/yNNy\/\/....       \r\n\t\t\t\t\t\t  \/\/\/dyyyNNNNNNNdyyyydNNNy\/\/\/\/\/.        \r\n\t\t\t\t\t\t  .\/\/odN oNdddddddNo dNdo\/\/\/\/\/          \r\n\t\t\t\t\t\t   .\/\/\/y\/NyooooyydNN\/y\/\/\/\/\/\/\/.          \r\n\t\t\t\t\t\t    ..\/\/\/\/oyyyyyyyo\/\/..\/\/\/\/..           \r\n\t\t\t\t\t\t          .\/\/\/\/\/....                    \r\n\t\t\t\t\t\t",
+      "back": "              ``                                  \r\n          `.-::-`                       ```       \r\n          ..:::-.`  `..-````..-` ` ``.``-::-.`    \r\n          `..--...--:\/::::\/++\/:::\/::-:-.-:::..    \r\n          ` ``.:::+oosssyyyyyyyyyyyo++::::-..``   \r\n       ``..`.`.:+ssssyyhhhdddddhyyhhyys+::-`      \r\n  ```..---:-::\/osssyyyyyyhdddddddddddhhyo::-.     \r\n `.--::::::\/ossssyyyyyyyyddddddddddd\/`odyo:--..`  \r\n `.::\/\/\/::\/osssshhyyyhyyhddddddddddy`  `syo:::--  \r\n ..::\/\/:::+ssssyddhhddddddddddddddyy`   `hh+::-`  \r\n -::::\/\/+o+osssmddddddddddddddddddhh+`  `oyy+:.   \r\n  .-:\/\/+sssssssmddddddddddddddddddddds:..-oh\/-.   \r\n  .-::\/\/ossssssmddddddddddddddddddddmdhyoosy:.`   \r\n   .::\/\/+sssssshmdddddddddddddddddddms.osyy+:..`  \r\n   .:\/\/osssssssymdddddddddddddddddddms+o\/:::::.   \r\n  `-:\/osssssssssymddddddddddddddddddm+\/\/:::::-`   \r\n  `.-:\/ooosssssssydddddddddddddddddddds+\/:::-.`   \r\n  ```...-::::::::::++++++++++++++++++++o-...```    "
+    },
+    {
+      "name": "EKANS",
+      "desc": "Poison",
+      "hp": 35,
+      "atk": 60,
+      "def": 44,
+      "spatk": 40,
+      "spdef": 54,
+      "moves": [
+        {
+          "name": "Poison Sting",
+          "attack": 15,
+          "accuracy": 100,
+          "type": "Poison",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        },
+        {
+          "name": "Tackle",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        }
+      ],
+      "front": "\t\t\t\t\t\t                  :ooooo                \r\n\t\t\t\t\t\t   :oo         ::: .\/\/\/\/yyoo            \r\n\t\t\t\t\t\t   Moo       :y   .\/\/yoMoy\/\/yo:         \r\n\t\t\t\t\t\t  y  M       M:::oooyyoMoy\/\/\/\/\/yo       \r\n\t\t\t\t\t\t .:ooo      d  .\/\/\/\/\/yyyy\/\/\/\/\/\/\/\/yo     \r\n\t\t\t\t\t\t ooooM       ooyyyydddddMM\/\/\/\/\/\/\/o d    \r\n\t\t\t\t\t\t y .o M          odyyyyyyd\/\/y\/\/\/o:  M   \r\n\t\t\t\t\t\t  oy\/yoo        :yoyydddy\/yMy.::     d  \r\n\t\t\t\t\t\t   oy\/\/\/yoo      :oyyyyyoo  ooo   ::oM  \r\n\t\t\t\t\t\t     ooy\/\/\/d                  od:o\/\/\/\/M \r\n\t\t\t\t\t\t        Moood                  M  \/\/\/\/M \r\n\t\t\t\t\t\t        M\/\/\/M                  M .\/\/\/\/M \r\n\t\t\t\t\t\t      oy\/\/\/yo   :o:ooyyoo      M.\/\/\/\/yo \r\n\t\t\t\t\t\t    :yooy\/yo:ooy\/..\/\/\/\/\/odo   d\/\/\/\/\/\/M  \r\n\t\t\t\t\t\t   :y\/\/\/oyyy\/\/\/\/\/\/...\/oo\/\/\/Moy\/ooooodo  \r\n\t\t\t\t\t\t   M\/\/\/y\/\/\/\/\/...ooooooo\/\/oy.  \/\/\/\/\/y:   \r\n\t\t\t\t\t\t    ooyoo.  oo:o     oy\/y\/...\/\/\/\/\/y:    \r\n\t\t\t\t\t\t       :ooo:          oodo\/\/\/\/\/yyo      \r\n\t\t\t\t\t\t                         :ooooo         \r\n\t\t\t\t\t\t",
+      "back": "                              :++ooyho+:          \r\n                           \/so.`    :ssyhy:       \r\n                         \/hys:`  .-\/soyhyyso:     \r\n                        my\/\/oso++osy\/``\/++mhmy:   \r\n                    `:\/o-..+osssssssyo+soyyysshy: \r\n                  `:s- ..+ssssssssssssyyysssssssN \r\n                `\/yyo\/+sssssssssssssssssyhyhmmyy: \r\n               -ss--  -:sssssssssssssshNNh``\/\/:   \r\n              -+-         :sssddysssshmdhmh       \r\n              +s`.\/+\/``   `ddNmdhysssydmdhh+      \r\n             \/s\/\/-.ssyy\/ s+    \/++hmdyssydy\/      \r\n      :\/+-   +d\/ `\/sssssyM`          :oo:         \r\n     :o.os-   +dosssssssssdo+`                    \r\n    :oysyy-   -sysssssssssssshhho++.              \r\n   y- `h\/`     -sysssso``\/\/ossyyyhhhhs\/-          \r\n   m:-+m\/       `:yysss+-  :++osssssssyys-        \r\n -\/-syy:`         `-oysys+oy- ``:osssssssys-      \r\n N` .d:               .-oydys++-.+sysssyyyyh.     \r\n do+sd-                   ::yyyy\/.\/sssssssyhh     \r\n o\/y\/y.                      .h\/.+ssssssssshy     \r\no\/   sy-                  `.o+.:osssssssssyh      \r\nN.``:om:            ``.\/ooyh+osssssssssssyy-      \r\n NshdN:         `.+o\/++ ::yyyyysssssssssyy:       \r\n oo`  \/o.    .+oo\/`:\/ssssssssssyyssssydy:         \r\n"
+    },
+    {
+      "name": "METAPOD",
+      "desc": "Bug",
+      "hp": 50,
+      "atk": 20,
+      "def": 55,
+      "spatk": 25,
+      "spdef": 25,
+      "moves": [
+        {
+          "name": "Harden",
+          "attack": 1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Self",
+          "stat": "def",
+          "pp": 30
+        },
+        {
+          "name": "Tackle",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        }
+      ],
+      "front": "\t\t\t\t\t\t                    \/o                  \r\n\t\t\t\t\t\t                  \/o .yo                \r\n\t\t\t\t\t\t                 \/o \/\/\/mo               \r\n\t\t\t\t\t\t                \/o \/\/\/yymo              \r\n\t\t\t\t\t\t               oo \/\/\/\/mmyyo             \r\n\t\t\t\t\t\t              oyo \/\/yM MMooMo           \r\n\t\t\t\t\t\t              M\/\/yoy\/\/yooomyyyyo        \r\n\t\t\t\t\t\t             M\/Mom yy\/\/oyyyyyyo\/yyo     \r\n\t\t\t\t\t\t            M\/yyM  \/\/yy\/yyyyyyyyoyo     \r\n\t\t\t\t\t\t             oommm.\/\/yy\/\/yyyymmoo       \r\n\t\t\t\t\t\t                Myy\/yy\/\/\/yyymyM         \r\n\t\t\t\t\t\t                oy\/M\/\/\/\/\/yyyyyM         \r\n\t\t\t\t\t\t                 M\/\/M\/\/\/yyyyyy\/         \r\n\t\t\t\t\t\t        \/\/      om\/oy\/\/oyyyyym          \r\n\t\t\t\t\t\t       m..yoooom.\/yy\/\/oyyyyym           \r\n\t\t\t\t\t\t       oy. .o\/.y.\/\/mmymmmmMo            \r\n\t\t\t\t\t\t        omooMooommmymmymmo              \r\n\t\t\t\t\t\t          \/oyMmmmmmMmoo\/                 ",
+      "back": "                         `:\/.                     \r\n                         -s++o                    \r\n                         +so++s`                  \r\n                        -sooooos`                 \r\n                       -soooooooo                 \r\n                      :sooooooo+h-                \r\n                    `ossooooooosss:               \r\n                  `\/sssooooooooy+dd               \r\n                .+yssoooooooooos+:s`              \r\n               `ysooooooooooooooosh+              \r\n               \/yoooooooooooooosso+s:             \r\n                yhysoooooooooossoo++s:            \r\n                .Nhysooooooooossoosyo.            \r\n                .ssoooooooooooosyys.              \r\n                o++oooooooooooosh\/                \r\n               -o++++++++ooooooy:                 \r\n               sooo+++++ooooooyo                  \r\n             `o+++++oosooooooyd.                  \r\n            \/o\/\/\/\/\/\/\/+sssooosd.                    "
+    },
+    {
+      "name": "CUBONE",
+      "desc": "Ground",
+      "hp": 50,
+      "atk": 50,
+      "def": 95,
+      "spatk": 40,
+      "spdef": 50,
+      "moves": [
+        {
+          "name": "Headbutt",
+          "attack": 70,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 15
+        },
+        {
+          "name": "Growl",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "atk",
+          "pp": 40
+        },
+        {
+          "name": "Leer",
+          "attack": -1,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "None",
+          "target": "Opponent",
+          "stat": "def",
+          "pp": 30
+        },
+        {
+          "name": "Bone Club",
+          "attack": 65,
+          "accuracy": 85,
+          "type": "Ground",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 20
+        }
+      ],
+      "front": "\t\t\t\t\t\t                    ooo \/ooo            \r\n\t\t\t\t\t\t           \/oo     Moooo    hhooooooho  \r\n\t\t\t\t\t\t        \/\/o  +hhhhho++----+++oo+++--ho  \r\n\t\t\t\t\t\t       \/h  -+hh++++++++hMMMMMdo+++ho    \r\n\t\t\t\t\t\t  \/oo oo+-++MMMM++++++mddmMooydd-++ho   \r\n\t\t\t\t\t\t\/h  +hM -++++hdh++++++hM\/MM  yyM +++ho  \r\n\t\t\t\t\t\tM  ++hooo+hMMhho--++++++hhdddmdo\/++++M  \r\n\t\t\t\t\t\t oh++ho  oodMMMM -hMMhhh+++--y-+ooo+ho  \r\n\t\t\t\t\t\t   d++ho       oMdyyyyydddmMh+yo+++do   \r\n\t\t\t\t\t\t    d++hMdo   ooodddyyyyyyyymMMhhhoo    \r\n\t\t\t\t\t\t     Mhhhdydddyyyyyyyyyyyyyyyydd\/oooo   \r\n\t\t\t\t\t\t    MyyyM+Myyyyymdo\/\/oyyyyyyyyyyyyyyydo \r\n\t\t\t\t\t\t     oddd++hMoomo      -oyyyymdmddyyydo \r\n\t\t\t\t\t\t        M++ho  M - - - - +yyyyydo ooo   \r\n\t\t\t\t\t\t         oo   \/Mo-+---+-+++ymdyyMdo     \r\n\t\t\t\t\t\t             dooM++++++++++dyyyyyMyddoo \r\n\t\t\t\t\t\t            Myoyydh+++++++MyyyyyyyMyyyyM\r\n\t\t\t\t\t\t            MooyyyymMhhhoommyyyyyyMddoo \r\n\t\t\t\t\t\t           ooohhddoo    ooood\/--odo     \r\n\t\t\t\t\t\t                             oooo        ",
+      "back": "                      -o\/:.                                 \r\n           -::-       +\/-`:-                                \r\n           y-.`---.-::s+-.`+:.`                             \r\n           :s-:::-..`.-s--..-``--.`                         \r\n            h+-``...---s--.````` `-:                        \r\n          `s\/-.--------:---`````-o\/.:-                      \r\n          ++---------------````-ssy+\/\/.              ```    \r\n         .o:---------------````+sssd:-o            `-..--   \r\n         -o------------\/--.````+yhhd-.\/:           \/.`..\/o. \r\n         `+:----------:s--`````\/sssh-. :-`        `y:---..-s\r\n          -s----------o\/:.``.+``\/yy:.    `-`  .::::-..----:h\r\n           ss:-------\/o\/:-.-+.```.\/.   -\/dys+o:..-:\/\/+-::::`\r\n       ``` :sos+:-----\/oyssho\/-.`y:+-.s+sho::++-\/-``        \r\n      .yyyos-\/osdhyssshyssysyhyydhysoyo+++sh\/.              \r\n      dssyyyyshyyyyysssssssssssssooossssyyyy.               \r\n      oyyssssssyhssssssssssssssssssssyy\/:```                \r\n     -- .-\/+ohdyhhssssssssssssyyh+o:-`                      \r\n     ysso-` `oyhyssssssssssss+--\/                           \r\n     :hsssyssyssssssssssssss+:-.o                           \r\n      sysssssssssssssssssssooo+\/o                           \r\n      `syssssssssssyyssssssss++h-                           \r\n       `\/\/:::::::::\/::::::::::-:`                            "
+    },
+    {
+      "name": "PIDGEY",
+      "desc": "Flying",
+      "hp": 40,
+      "atk": 45,
+      "def": 40,
+      "spatk": 35,
+      "spdef": 35,
+      "moves": [
+        {
+          "name": "Tackle",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        },
+        {
+          "name": "Gust",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Flying",
+          "damage": "Special",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        },
+        {
+          "name": "Wing Attack",
+          "attack": 60,
+          "accuracy": 100,
+          "type": "Flying",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 35
+        },
+        {
+          "name": "Quick Attack",
+          "attack": 40,
+          "accuracy": 100,
+          "type": "Normal",
+          "damage": "Physical",
+          "target": "Opponent",
+          "stat": "None",
+          "pp": 30
+        }
+      ],
+      "front": "\t\t\t\t\t\t    oo                           ommo   \r\n\t\t\t\t\t\t   M\/yM        oo               om\/  M  \r\n\t\t\t\t\t\t  \/o\/ ym   ooomyyMoo           My`  mo  \r\n\t\t\t\t\t\t  M y  ymossmymoo``.smo      om+` oo  M \r\n\t\t\t\t\t\t  m  y  \/msmms`sssmmoo     om+`  m   oo \r\n\t\t\t\t\t\t   M  \/oossssoM omyymmo oom+`  \/o  \/Mo  \r\n\t\t\t\t\t\t  M m   mMs.sMo\/MMMmyymms+`       \/o  M \r\n\t\t\t\t\t\t   oo\/\/  MsssM   MMmyyy..```       \/oo  \r\n\t\t\t\t\t\t   oo\/   osso   omyyyyy..````   oo\/ooo  \r\n\t\t\t\t\t\t    oooo M       +yyyyyy++.```    \/ooo  \r\n\t\t\t\t\t\t        m\/        myyyyyymmsso`\/MMss.so \r\n\t\t\t\t\t\t        M M m  m  sm+yyyyyyyymMs.sssso  \r\n\t\t\t\t\t\t         oM``M  Moso `++yyyyyyMsssso    \r\n\t\t\t\t\t\t           oosms.`` ````..++ymooosooo   \r\n\t\t\t\t\t\t              ooos\/.`.`.+ssssmo         \r\n\t\t\t\t\t\t                os+mmMooos.+.M          \r\n\t\t\t\t\t\t                M\/m.M   M\/Mom M         \r\n\t\t\t\t\t\t                 o o     o   o           ",
+      "back": "                                         -yooo+   \r\n                                         -o`-yss+ \r\n                                         \/h`:m`.s+\r\n                                         \/d.:d.`.M\r\n                      `yss+\/:`  .:.      \/d\/h-...M\r\n                       -syshoyhd\/-+\/.   `+y+s+sd-M\r\n                    `s\/ssoNNdyyhd\/.s+`  \/h:s+s-d\/N\r\n                    `:o-\/++sNdddmd+\/y+ `+y.\/d`..M-\r\n   `+o-`               -\/ssho-\/++shdms`+h.\/y\/\/s\/N \r\n  \/:``:o:`              yo-..\/++syyyymmhy-+y\/d:Ny \r\n `hy-``.+o:`          `so.-+-\/++syyymMMy.\/y\/y..-N \r\n d`ooos:..\/hh:        `N.++++++syyyymNy\/..\/y...:N \r\noMy....+sso+ohmmho+:`os..++++yyyyyydmhs:.:\/:o.:N  \r\nM..ssss:-\/ymhyyyyhmNo--\/++++yyyyydmhyyyys+so:mm   \r\n`N-.+ssssyhhhddhhh+++\/++y+yyyyydmhyyyyyhho--+do   \r\n \/os-:\/oshhy+:\/yh+s+yyyyyyyyyyyyyyyyyyhds:-+ho    \r\n s+ssyyyydyosyyydmyyyyyyyyyyyyyyyyyyyyyhdhyy.     \r\n:o\/dddhyyyhddhyyhmhyyyyyyyyyyyyyyhddhhyyo.:h      \r\nh\/yyhhdmdhhyhddyyhmhyyyyyyyyyyyyy+\/\/-``\/+:y.      \r\n ::yhhhhhhddhyyyyyyhyyyyyyyyyyyy+-...`\/yo+-       \r\n      -:hmhhyyyo+sysyyyyyyyyyys\/-.....oy-         \r\n        -sho\/+++++++\/\/\/sshhho\/-.....-so           \r\n          -+oo\/::-:....-soo++s\/--.-+o-            \r\n             .\/++s+`.....oN+\/sddhyo-              \r\n                .sdhmNsss..N:syydy-                "
+    }
+  ],
+  "list_of_items": [
+    {
+      "name": "Potion",
+      "itemtype": "Healing",
+      "value": 20.0,
+      "uses": 2
+    },
+    {
+      "name": "Berry",
+      "itemtype": "Healing",
+      "value": 10.0,
+      "uses": 3
+    }
+  ]
+}

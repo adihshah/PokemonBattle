@@ -1,0 +1,432 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="next" href="Command.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Battle" rel="Chapter" href="Battle.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Authors" rel="Chapter" href="Authors.html"><title>Battle</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Command.html" title="Command">Next</a>
+</div>
+<h1>Module <a href="type_Battle.html">Battle</a></h1>
+
+<pre><span id="MODULEBattle"><span class="keyword">module</span> Battle</span>: <code class="code">sig</code> <a href="Battle.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>The type of a name</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEname"><span class="keyword">type</span> <code class="type"></code>name</span> = <code class="type">string</code> </pre>
+
+
+<pre><span id="TYPEdesc"><span class="keyword">type</span> <code class="type"></code>desc</span> = <code class="type">string</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>The type of a pokemon type</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEhp"><span class="keyword">type</span> <code class="type"></code>hp</span> = <code class="type">int</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>The type of hp</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEmove"><span class="keyword">type</span> <code class="type"></code>move</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.name">name</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.attack">attack</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.movetype">movetype</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.accuracy">accuracy</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.damage">damage</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.target">target</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.stat">stat</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTmove.pp">pp</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>A move has a name and an attack value</p>
+</div>
+</div>
+
+
+<pre><span id="TYPEmoves"><span class="keyword">type</span> <code class="type"></code>moves</span> = <code class="type"><a href="Battle.html#TYPEmove">move</a> list</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>The type of a pokemons moves</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEpokemon"><span class="keyword">type</span> <code class="type"></code>pokemon</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.name">name</span>&nbsp;: <code class="type"><a href="Battle.html#TYPEname">name</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.desc">desc</span>&nbsp;: <code class="type"><a href="Battle.html#TYPEdesc">desc</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.hp">hp</span>&nbsp;: <code class="type"><a href="Battle.html#TYPEhp">hp</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.atk">atk</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.spatk">spatk</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.def">def</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.spdef">spdef</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.moves">moves</span>&nbsp;: <code class="type"><a href="Battle.html#TYPEmoves">moves</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.front">front</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTpokemon.back">back</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>A pokemon has a name, desc, hp, moves, stats, and front art and back art</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEitem"><span class="keyword">type</span> <code class="type"></code>item</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTitem.name">name</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTitem.itemtype">itemtype</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTitem.value">value</span>&nbsp;: <code class="type">float</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTitem.uses">uses</span>&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>The type of an item</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.player1_pokemon">player1_pokemon</span>&nbsp;: <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> list</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.player2_pokemon">player2_pokemon</span>&nbsp;: <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> list</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.items">items</span>&nbsp;: <code class="type"><a href="Battle.html#TYPEitem">item</a> list</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>The type of a battle</p>
+</div>
+</div>
+
+
+<pre><span id="VALname_of_json"><span class="keyword">val</span> name_of_json</span> : <code class="type">Yojson.Basic.json -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">name_of_json json</code> Extracts a name from a json</p>
+</div>
+</div>
+
+<pre><span id="VALatk_of_json"><span class="keyword">val</span> atk_of_json</span> : <code class="type">Yojson.Basic.json -> int</code></pre>
+<pre><span id="VALsp_atk_of_json"><span class="keyword">val</span> sp_atk_of_json</span> : <code class="type">Yojson.Basic.json -> int</code></pre>
+<pre><span id="VALdef_of_json"><span class="keyword">val</span> def_of_json</span> : <code class="type">Yojson.Basic.json -> int</code></pre>
+<pre><span id="VALsp_def_of_json"><span class="keyword">val</span> sp_def_of_json</span> : <code class="type">Yojson.Basic.json -> int</code></pre>
+<pre><span id="VALdesc_of_json"><span class="keyword">val</span> desc_of_json</span> : <code class="type">Yojson.Basic.json -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">desc_of_json json</code> Extracts a desc from a json</p>
+</div>
+</div>
+
+<pre><span id="VALhp_of_json"><span class="keyword">val</span> hp_of_json</span> : <code class="type">Yojson.Basic.json -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">hp_of_json json</code> Extracts an hp from a json</p>
+</div>
+</div>
+
+<pre><span id="VALmove_of_json"><span class="keyword">val</span> move_of_json</span> : <code class="type">Yojson.Basic.json -> <a href="Battle.html#TYPEmove">move</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">move_of_json json</code> Extracts a move from a json</p>
+</div>
+</div>
+
+<pre><span id="VALmoves_of_json"><span class="keyword">val</span> moves_of_json</span> : <code class="type">Yojson.Basic.json -> <a href="Battle.html#TYPEmove">move</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">moves_of_json json</code> Extracts a list of moves from a json</p>
+</div>
+</div>
+
+<pre><span id="VALfront_of_json"><span class="keyword">val</span> front_of_json</span> : <code class="type">Yojson.Basic.json -> string</code></pre>
+<pre><span id="VALback_of_json"><span class="keyword">val</span> back_of_json</span> : <code class="type">Yojson.Basic.json -> string</code></pre>
+<pre><span id="VALpokemon_of_json"><span class="keyword">val</span> pokemon_of_json</span> : <code class="type">Yojson.Basic.json -> <a href="Battle.html#TYPEpokemon">pokemon</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">pokemon_of_json json</code> Extracts a pokemon from a json</p>
+</div>
+</div>
+
+<pre><span id="VALpokemonlist_of_json"><span class="keyword">val</span> pokemonlist_of_json</span> : <code class="type">Yojson.Basic.json -> <a href="Battle.html#TYPEpokemon">pokemon</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">pokemonlist_of_json json</code> Extracts a list of pokemon from a json</p>
+</div>
+</div>
+
+<pre><span id="VALinit_battle"><span class="keyword">val</span> init_battle</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> list -> <a href="Battle.html#TYPEpokemon">pokemon</a> list -> <a href="Battle.html#TYPEitem">item</a> list -> <a href="Battle.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">init_battle pokemon1 pokemon2</code> Given two pokemon <code class="code">pokemon1</code> and <code class="code">pokemon2</code>,
+    is a new battle</p>
+</div>
+</div>
+
+<pre><span id="VALget_name"><span class="keyword">val</span> get_name</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> -> <a href="Battle.html#TYPEname">name</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_name pokemon</code> Is a given pokemon's name</p>
+</div>
+</div>
+
+<pre><span id="VALget_desc"><span class="keyword">val</span> get_desc</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> -> <a href="Battle.html#TYPEdesc">desc</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_desc pokemon</code> Is a given pokemons type</p>
+</div>
+</div>
+
+<pre><span id="VALget_hp"><span class="keyword">val</span> get_hp</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> -> <a href="Battle.html#TYPEhp">hp</a></code></pre>
+<pre><span id="VALget_moves"><span class="keyword">val</span> get_moves</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> -> <a href="Battle.html#TYPEmoves">moves</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_moves pokemon</code> Is a list of a given pokemons moves</p>
+</div>
+</div>
+
+<pre><span id="VALget_player_hp"><span class="keyword">val</span> get_player_hp</span> : <code class="type"><a href="Battle.html#TYPEt">t</a> -> int -> <a href="Battle.html#TYPEhp">hp</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_player_hp state num</code> Is the maximum hp of player 1 or 2's pokemon
+    denoted by num</p>
+</div>
+</div>
+
+<pre><span id="VALget_player_pokemon"><span class="keyword">val</span> get_player_pokemon</span> : <code class="type"><a href="Battle.html#TYPEt">t</a> -> int -> <a href="Battle.html#TYPEpokemon">pokemon</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_player_pokemon state num</code> Is the pokemon of player 1 or 2 
+    (denoted by num)</p>
+</div>
+</div>
+
+<pre><span id="VALget_other_player_pokemon"><span class="keyword">val</span> get_other_player_pokemon</span> : <code class="type"><a href="Battle.html#TYPEt">t</a> -> int -> <a href="Battle.html#TYPEpokemon">pokemon</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_other_player_pokemon state num</code> Is the pokemon of the opposite 
+    player given denoted by num in the current state</p>
+</div>
+</div>
+
+<pre><span id="VALget_items"><span class="keyword">val</span> get_items</span> : <code class="type"><a href="Battle.html#TYPEt">t</a> -> <a href="Battle.html#TYPEitem">item</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_items battle</code> is the item list available in the given <code class="code">battle</code></p>
+</div>
+</div>
+
+<pre><span id="VALget_front"><span class="keyword">val</span> get_front</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_front pokemon</code> Is the front ASCII art of a given pokemon</p>
+</div>
+</div>
+
+<pre><span id="VALget_back"><span class="keyword">val</span> get_back</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_front pokemon</code> Is the back ASCII art of a given pokemon</p>
+</div>
+</div>
+
+<pre><span id="VALget_items"><span class="keyword">val</span> get_items</span> : <code class="type"><a href="Battle.html#TYPEt">t</a> -> <a href="Battle.html#TYPEitem">item</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_items battle</code> is the item list available in the given <code class="code">battle</code></p>
+</div>
+</div>
+
+<pre><span id="VALgetpokemonfromname"><span class="keyword">val</span> getpokemonfromname</span> : <code class="type"><a href="Battle.html#TYPEpokemon">pokemon</a> list -> <a href="Battle.html#TYPEname">name</a> -> <a href="Battle.html#TYPEpokemon">pokemon</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">getpokemonfromname lst name</code> Is a data type pokemon from its name</p>
+</div>
+</div>
+
+<pre><span id="VALget_attack_val"><span class="keyword">val</span> get_attack_val</span> : <code class="type"><a href="Battle.html#TYPEmove">move</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_attack_val move</code> Is the attack value of a given move</p>
+</div>
+</div>
+
+<pre><span id="VALget_move_type"><span class="keyword">val</span> get_move_type</span> : <code class="type"><a href="Battle.html#TYPEmove">move</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_attack_val move</code> Is the attack value of a given move</p>
+</div>
+</div>
+
+<pre><span id="VALget_move_name"><span class="keyword">val</span> get_move_name</span> : <code class="type"><a href="Battle.html#TYPEmove">move</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_move_name move</code> is the <code class="code">name</code> field of <code class="code">move</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALitemtype_of_json"><span class="keyword">val</span> itemtype_of_json</span> : <code class="type">Yojson.Basic.json -> string</code></pre>
+<pre><span id="VALvalue_of_json"><span class="keyword">val</span> value_of_json</span> : <code class="type">Yojson.Basic.json -> float</code></pre>
+<pre><span id="VALuses_of_json"><span class="keyword">val</span> uses_of_json</span> : <code class="type">Yojson.Basic.json -> int</code></pre>
+<pre><span id="VALitem_of_json"><span class="keyword">val</span> item_of_json</span> : <code class="type">Yojson.Basic.json -> <a href="Battle.html#TYPEitem">item</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">item_of_json json</code> Extracts an item from a json</p>
+</div>
+</div>
+
+<pre><span id="VALitemlist_of_json"><span class="keyword">val</span> itemlist_of_json</span> : <code class="type">Yojson.Basic.json -> <a href="Battle.html#TYPEitem">item</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">itemlist_of_json json</code> Extracts a list of items from a json</p>
+</div>
+</div>
+</body></html>
